@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationInsightsTelemetry();
 
 // ensure my application listens on port 8081
-builder.WebHost.UseUrls("https://0.0.0.0:8081");
+//builder.WebHost.UseUrls("https://0.0.0.0:8081");
 
 
 var app = builder.Build();
